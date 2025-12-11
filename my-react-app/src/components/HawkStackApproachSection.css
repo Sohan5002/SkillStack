@@ -1,0 +1,117 @@
+.hawkstack-approach-section {
+  padding: 6rem 2rem;
+  background-color: #ffffff;
+}
+
+.hawkstack-approach-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.approach-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.approach-title-purple {
+  color: #9b59b6;
+}
+
+.approach-description {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+  line-height: 1.7;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.approach-card {
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #e0e0e0;
+}
+
+.approach-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.approach-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.red-icon {
+  background-color: rgba(238, 0, 0, 0.1);
+  color: #ee0000;
+}
+
+.blue-icon {
+  background-color: rgba(52, 152, 219, 0.1);
+  color: #3498db;
+}
+
+.green-icon {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+}
+
+.approach-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0a0a0a;
+  margin-bottom: 1rem;
+}
+
+.approach-card-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .approach-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hawkstack-approach-section {
+    padding: 4rem 1rem;
+  }
+
+  .approach-title {
+    font-size: 2.5rem;
+  }
+
+  .approach-description {
+    font-size: 1rem;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+

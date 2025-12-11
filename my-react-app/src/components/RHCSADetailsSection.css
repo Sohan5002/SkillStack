@@ -1,0 +1,125 @@
+.rhcsa-details-section {
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, #1a1a2e 0%, #0f0f1e 100%);
+}
+
+.rhcsa-details-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rhcsa-icon {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 0 20px rgba(238, 0, 0, 0.5));
+}
+
+.rhcsa-details-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.rhcsa-title-white {
+  color: #ffffff;
+  display: block;
+}
+
+.rhcsa-title-red {
+  color: #ee0000;
+  display: block;
+}
+
+.rhcsa-details-description {
+  font-size: 1.2rem;
+  color: #cccccc;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  line-height: 1.7;
+}
+
+.rhcsa-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rhcsa-feature-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.rhcsa-feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.red-check {
+  background-color: rgba(238, 0, 0, 0.2);
+  color: #ee0000;
+  border: 2px solid #ee0000;
+}
+
+.purple-check {
+  background-color: rgba(155, 89, 182, 0.2);
+  color: #9b59b6;
+  border: 2px solid #9b59b6;
+}
+
+.green-check {
+  background-color: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+  border: 2px solid #4caf50;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .rhcsa-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .rhcsa-details-section {
+    padding: 4rem 1rem;
+  }
+
+  .rhcsa-details-title {
+    font-size: 2.5rem;
+  }
+
+  .rhcsa-details-description {
+    font-size: 1rem;
+  }
+
+  .rhcsa-features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
